@@ -1,3 +1,34 @@
+
+
+<!-- social media connecting shield -->
+
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Github][github-shield]][github-url]
+
+![Frontend Screenshot](https://raw.githubusercontent.com/sJalui/LuxuryHaven/refs/heads/main/Site%20Images/Screenshot%202024-10-22%20220842.png?token=GHSAT0AAAAAACYN53YUOYA4GAYRVNU7XMJ4ZYX4QTA)
+![Frontend Screenshot](https://raw.githubusercontent.com/sJalui/LuxuryHaven/refs/heads/main/Site%20Images/Screenshot%202024-10-22%20222249.png?token=GHSAT0AAAAAACYN53YVGMRH6USBYLHN622AZYX4REQ)
+
+# ✨ LuxuryHaven | Hotel Room Booking System
+
+Hello 👋, I'm <strong>Eeshanya Joshi</strong>. In this repository I built a `Luxury Haven' | Hotel Room Booking System - Web application`. Using `Node.js, React.js, Express.js, MongoDB, Typescript`.
+
+<!-- my social media links -->
+
+[linkedin-url]: https://www.linkedin.com/in/eeshanya-joshi-641920261/
+[github-url]: https://github.com/Code-Ph0enix
+<!-- shield icon links -->
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[github-shield]: https://img.shields.io/badge/-Github-black.svg?style=flat-square&logo=github&color=555&logoColor=white
+
+
+<p align="center">
+  <strong> HAPPY DEVELOPMENT. Contributed by Shubh Jalui https://github.com/sJalui </strong>
+</p>
+
+
 # Setting Up the MERN Booking App
 
 This guide will walk you through the process of setting up the MERN Booking App on your local machine.
@@ -11,7 +42,11 @@ Before you begin, ensure you have Node.js installed on your system.
 Start by cloning the repository to your local machine:
 
 ```bash
+
 git clone https://github.com/chrisblakely01/mern-booking-app.git
+
+git clone https://github.com/sJalui/LuxuryHaven.git
+
 cd mern-booking-app
 ```
 
@@ -74,14 +109,30 @@ cd mern-booking-app
 1. **Backend**:
     - Navigate to the `backend` directory.
     - Install dependencies: `npm install`.
+
     - Start the server: `npm start`.
+
+    - Start the server: `npm run dev`.
+
 
 2. **Frontend**:
     - Open a new terminal and navigate to the `frontend` directory.
     - Install dependencies: `npm install`.
     - Start the frontend application: `npm run dev`.
+
     - The application should now be running on `http://localhost:5173` but verify this in your command line terminal  
 
+
+
+    - The application should now be running on `http://localhost:5173` but verify this in your command line terminal 
+3. **Issue Resolve**:
+    - Use this code in your index.tsc file in frontend to resolve corse error(Use your localhost)
+    - ```plaintext
+      app.use(cors({
+      origin: 'http://localhost:5174', 
+      credentials: true, 
+      }));
+      ```
 
 ## Running Automated Tests
 
@@ -117,5 +168,9 @@ cd mern-booking-app
     - Install dependencies: `npm install`.
     - Start the frontend and backend server using the steps above
     - [Using the Playwright extension to run the tests](https://playwright.dev/docs/getting-started-vscode#running-tests)
+
+
+
+
 
 
